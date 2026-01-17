@@ -1,9 +1,9 @@
 package atvPOO;
 
 public abstract class Feiticeiro {
-    String nome;
-    int forca;
-    int velocidade;
+    private String nome;
+    private int forca;
+    private int velocidade;
 
     public Feiticeiro(String nome, int forca, int velocidade) {
         this.nome = nome;
